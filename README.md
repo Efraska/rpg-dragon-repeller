@@ -28,7 +28,7 @@ Este es un juego de aventuras interactivo basado en texto. ¡Explora el mundo, l
 
 ## Créditos
 
-Este juego fue desarrollado por [@Efrasss(https://github.com/efrasss?tab=repositories)].
+Este juego fue desarrollado por [@Efrasss](https://github.com/efrasss?tab=repositories).
 
 ## Licencia
 
