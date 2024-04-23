@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+    <title>RPG - Dragon Repeller</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="stats">
+        <span class="stat"
+          >XP: <strong><span id="xpText">0</span></strong></span
+        >
+        <span class="stat"
+          >Health: <strong><span id="healthText">100</span></strong></span
+        >
+        <span class="stat"
+          >Gold: <strong><span id="goldText">50</span></strong></span
+        >
+      </div>
+      <div id="controls">
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Fight dragon</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat"
+          >Monster Name: <strong><span id="monsterName"></span></strong
+        ></span>
+        <span class="stat"
+          >Health: <strong><span id="monsterHealth"></span></strong
+        ></span>
+      </div>
+      <div id="text">
+        Welcome to Dragon Repeller. You must defeat the dragon that is
+        preventing people from leaving the town. You are in the town square.
+        Where do you want to go? Use the buttons above.
+      </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
